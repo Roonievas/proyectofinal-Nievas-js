@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1>Lista de Tareas</h1>
+
+    <input type="text" id="nuevaTarea" placeholder="Nueva Tarea">
+    <button onclick="agregarTarea()" class="boton1"> Agregar</button>
+
+    <h2>Tareas Pendientes</h2>
+    <ul id="tareasPendientes"> </ul>
+
+    <h2>Tareas Completadas</h2>
+    <ul id="tareasCompletadas"> </ul>
+
+    <h1 class="userContentos">USUARIOS CONTENTOS CON NUESTRA WEB</h1>
+
+    <div class="contenedor">
+        <img class="img2" alt="perfil de usuario" id="foto">
+        <h2>Nombre: <span id="nombre"></span></h2>
+        <p>Correo: <span id="correo"></span></p>
+        <p>Telefono: <span id="telefono"></span></p>
+    </div>
+
+    <div class="boton">
+        <button id="boton">Click</button>
+    </div>
+
+
+    <a href="index.html"> Cerrar sesion</a>
+
+    <script src="js/main.js"></script>
+    <script src="js/tareas.js"></script>
+</body>
+
+</html>
